@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Tiny5&display=swap");
+body {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.header .nav {
+  display: flex;
+}
+.header .nav .list {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(79, 86, 101);
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+.header .registration-LogIn {
+  display: flex;
+  gap: 10px;
+}
+.header .registration-LogIn .btn1 {
+  color: rgb(11, 19, 42);
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.header .registration-LogIn .btn2 {
+  border-radius: 50px;
+  color: rgb(245, 56, 85);
+  border-color: rgb(245, 56, 85);
+  font-weight: 500;
+  font-size: 16px;
+  border: 1px solid rgb(245, 56, 85);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: none;
+}
+
+h1 {
+  font-size: 23.49px;
+  color: rgb(11, 19, 42);
+  line-height: 40px;
+  font-weight: 500;
+}
+h1 strong {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: rgb(79, 86, 101);
+}
+p strong {
+  font-weight: 500;
+}
+
+.butGetStar {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(245, 56, 56);
+  border: none;
+  box-shadow: 0 10px 10px 5px rgba(245, 56, 56, 0.35);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=style.css.map */
